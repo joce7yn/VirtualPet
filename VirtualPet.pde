@@ -1,8 +1,26 @@
-
-void setup(){
-  //some of your code here
+void setup()
+{
+  size(800,800);
+  background(207,250,249);
 }
-void draw(){
-  //more of your code here
+void draw()
+{
+ noStroke();
+ fill(97,139,59);
+ rect(0,600,800,200);
+ fill(147,101,16);
+ ellipse(470,190,255,150);
+ ellipse(320,370,350,250);
+ rect(345,200,136,80);
+ arc(231,280,500,500,0,PI/4);
+ triangle(420,100,400,135,440,135);
+ triangle(480,100,460,135,500,135);
+ ellipse(225,430,360,360);
+ rect(400,400,40,200);
+ rect(450,350,40,250);
+ rect(260,570,100,30);
+ fill(0,0,0);
+ ellipse(480,160,50,25);
+ fill(93,93,93);
+ ellipse(585,190,30,50);
 }
-
